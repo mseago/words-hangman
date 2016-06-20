@@ -1,0 +1,115 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*end of default resets*/
+/*beginning of CSS*/
+
+body {
+  width: 100%;
+  background-image: url("images/bowlingpins.jpg");
+}
+#container {
+  margin: 0 auto;
+  max-width: 760px;
+  height: auto;
+  font-family: Georgia, serif;
+}
+h1 {
+  background-color: rgba(207, 17, 3, 1);
+  margin: 10px 0 0 0;
+  padding: 15px 0 15px 0;
+  font-size: 40px;
+  text-align: center;
+}
+#guesses {
+  width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 25px;
+  text-align: center;
+  color: rgba(207, 17, 3, 1);
+  background-color: rgba(213, 194, 179, 1);
+}
+
+#letter {
+  margin: 10px auto;
+  padding: 10px;
+  font-size: 14px;
+  border: 2px solid rgba(207, 17, 3, 1);
+  background-color: rgba(213, 194, 179, 1);
+  color: white;
+  border-radius: 5px;
+  display: block;
+  text-align: center;
+}
+#uncommonWord {
+  width: 600px;
+  margin: 0 auto;;
+  font-size: 2em;
+  padding:10px 0;
+  letter-spacing: 10px;
+  text-align: center;
+  color: #000;
+  background-color: gray;
+  display: block;
+}
+#submit {
+  padding: 5px 5px 10px 5px;
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 12px;
+  text-align: center;
+  display: block;
+}
+.pic-below-button {
+  margin: 20px auto;
+  /*padding 0 0 20px 0;*/
+  display: block;
+  text-align: center;
+}
